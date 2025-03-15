@@ -32,7 +32,7 @@ print("Expression for total error in H:")
 print(f"ΔH ≈ |∂H/∂R| * ΔR + |∂H/∂e| * Δe + |∂H/∂T| * ΔT")
 print(f"ΔH ≈ {partial_H_R:.2e} * {delta_R:.2e} + {partial_H_e:.2e} * {delta_e:.2e} + {partial_H_T:.2e} * {delta_T:.2e}")
 print(f"ΔH ≈ {delta_H:.2e} W")
-
+print("")
 
 #Part b calculation:
 
@@ -82,8 +82,9 @@ print(f"Total error in H: {delta_H:.1e} W")
 print(f"Relative error in H: {relative_error_H:.6f}")
 
 # Part C Answers:
+print("")
 print("Part c: Answers")
-print("\nExplanation:")
+print("\nReasoning:")
 print("The variable that contributes most to the error in H is the one with the largest product of sensitivity and relative error.")
 print(f"Sensitivity to R: {partial_H_R:.2e}")
 print(f"Sensitivity to e: {partial_H_e:.2e}")
