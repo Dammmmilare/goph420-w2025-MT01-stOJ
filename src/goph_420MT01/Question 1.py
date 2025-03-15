@@ -81,7 +81,7 @@ print(f"Expected value of H: {H:.1e} W")
 print(f"Total error in H: {delta_H:.1e} W")
 print(f"Relative error in H: {relative_error_H:.6f}")
 
-# Part c: Explanation of which variable contributes most to the error in H
+# Part C Answers:
 print("Part c: Answers")
 print("\nExplanation:")
 print("The variable that contributes most to the error in H is the one with the largest product of sensitivity and relative error.")
