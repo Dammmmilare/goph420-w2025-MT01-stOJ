@@ -1,7 +1,8 @@
 #Question 1 Calculations:
 #-----------------------
 
-import matplotlib.pyplot as plt
+#Part a calculation:
+
 import numpy as np
 
 # Provided calculation figures.
@@ -26,14 +27,14 @@ delta_H = (
 )
 
 # Output the expression for total error in H
-print("Question 1a")
+print("Part a: Answers")
 print("Expression for total error in H:")
 print(f"ΔH ≈ |∂H/∂R| * ΔR + |∂H/∂e| * Δe + |∂H/∂T| * ΔT")
 print(f"ΔH ≈ {partial_H_R:.2e} * {delta_R:.2e} + {partial_H_e:.2e} * {delta_e:.2e} + {partial_H_T:.2e} * {delta_T:.2e}")
 print(f"ΔH ≈ {delta_H:.2e} W")
 
 
-#Question 1b calculation
+#Part b calculation:
 
 
 # Constants
@@ -72,7 +73,7 @@ delta_H = (
 relative_error_H = delta_H / H
 
 # Output results
-print("Question 1b")
+print("Part b: Answers")
 print(f"Relative error in R: {relative_error_R:.6f}")
 print(f"Relative error in e: {relative_error_e:.6f}")
 print(f"Relative error in T: {relative_error_T:.6f}")
@@ -81,7 +82,7 @@ print(f"Total error in H: {delta_H:.1e} W")
 print(f"Relative error in H: {relative_error_H:.6f}")
 
 # Part c: Explanation of which variable contributes most to the error in H
-print("Question 1c")
+print("Part c: Answers")
 print("\nExplanation:")
 print("The variable that contributes most to the error in H is the one with the largest product of sensitivity and relative error.")
 print(f"Sensitivity to R: {partial_H_R:.2e}")
@@ -90,5 +91,7 @@ print(f"Sensitivity to T: {partial_H_T:.2e}")
 print(f"Relative error in R: {relative_error_R:.6f}")
 print(f"Relative error in e: {relative_error_e:.6f}")
 print(f"Relative error in T: {relative_error_T:.6f}")
-print("Based on the results, the variable with the largest contribution to the error in H is likely temperature (T), due to its high sensitivity and relative error.")
-print("The significance of the contribution of temperature T to the error in H is mostly due to the sensitivity of H to its value because the T^4 dependance in the Stefan Boltzmann law makes H higly sensitive to the changes in T.")
+print("Based on the results, the variable with the largest contribution to the error in H is likely temperature (T), "
+"due to its high sensitivity and relative error.The significance of the contribution of temperature T to the error in "
+"H is mostly due to the sensitivity of H to its value because the T^4 dependance in the Stefan Boltzmann law makes H "
+"higly sensitive to the changes in T.")

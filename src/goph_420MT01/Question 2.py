@@ -1,5 +1,5 @@
-import numpy as np
 import scipy
+import numpy as np
 import sys
 
 
