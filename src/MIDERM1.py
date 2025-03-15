@@ -1,4 +1,4 @@
-#Question 1 Calculation:
+#Question 1 Calculations:
 #-----------------------
 
 import matplotlib.pyplot as plt
