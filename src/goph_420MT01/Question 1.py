@@ -91,7 +91,7 @@ print(f"Sensitivity to T: {partial_H_T:.2e}")
 print(f"Relative error in R: {relative_error_R:.6f}")
 print(f"Relative error in e: {relative_error_e:.6f}")
 print(f"Relative error in T: {relative_error_T:.6f}")
-print("Based on the results, the variable with the largest contribution to the error in H is likely temperature (T), "
-"due to its high sensitivity and relative error.The significance of the contribution of temperature T to the error in "
+print("Based on the results, the variable with the largest contribution to the error in H is likely The Temperature Variable , "
+"due to its high sensitivity and its  relative error.The significance of the contribution of temperature T to the error in "
 "H is mostly due to the sensitivity of H to its value because the T^4 dependance in the Stefan Boltzmann law makes H "
 "higly sensitive to the changes in T.")
