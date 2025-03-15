@@ -1,6 +1,7 @@
 #Question 1 Calculation:
 #-----------------------
 
+import matplotlib.pyplot as plt
 import numpy as np
 
 # Provided calculation figures
@@ -31,7 +32,8 @@ print(f"ΔH ≈ |∂H/∂R| * ΔR + |∂H/∂e| * Δe + |∂H/∂T| * ΔT")
 print(f"ΔH ≈ {partial_H_R:.2e} * {delta_R:.2e} + {partial_H_e:.2e} * {delta_e:.2e} + {partial_H_T:.2e} * {delta_T:.2e}")
 print(f"ΔH ≈ {delta_H:.2e} W")
 
-#Question 1b
+
+#Question 1b calculation
 
 
 # Constants
