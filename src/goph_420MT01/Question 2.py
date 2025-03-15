@@ -1,7 +1,6 @@
+
 import scipy
 import numpy as np
-import sys
-
 
 #Question 2a
 from scipy.integrate import trapz
